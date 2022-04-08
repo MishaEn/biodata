@@ -1,26 +1,34 @@
 Порядок действий:
 
 Клонируем проект
-git clone https://github.com/MishaEn/biodata.git
+
+  git clone https://github.com/MishaEn/biodata.git
 
 Переходим в папку проекта
-cd biodata
+
+  cd biodata
 
 Обновляем зависимости
-composer update
+
+  composer update
 
 Иницилизируем приложение 
-php init
+
+  php init
 
 Поднимаем контейнеры
-docker-compose up
+
+  docker-compose up
 
 Переходим в контейнер backend
-docker exec -it backend bash
+
+  docker exec -it backend bash
 
 Запускаем миграцию
-php yii migrate
+
+  php yii migrate
 
 Учтека админа
-Логин - admin
-Пароль - password
+
+  Логин - admin
+  Пароль - password
